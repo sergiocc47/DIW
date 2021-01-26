@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Reproductor simple</title>
+		<!-- https://www.geeksforgeeks.org/html-dom-audio-volume-property/ -->
+		<script type="text/javascript">
+			var x=document.getElementById("player");
+
+			function subirVolumen(){
+				x.volume+=0.1;
+			}
+			   
+			function bajarVolumen(){
+				x.volume-=0.1;
+			}
+		</script>
+	</head>
+	<body>
+		<audio id="player" src="musicaA3.2.mp3" controls></audio>	<!-- NOTA: controls mete la interfaz del reproductor -->
+		<div>
+			<button onclick="document.getElementById('player').play()"><img src="Play1Normal.png"/></button>
+			<button onclick="document.getElementById('player').pause()"><img src="Stop1Hot.png"/></button>
+			<button onclick="subirVolumen()"><img src="VolumeNormal.png"/></button>
+			<button onclick="bajarVolumen()"><img src="VolumeNormalRed.png"/></button>
+			
+			
+		</div>
+	</body>
+</html>

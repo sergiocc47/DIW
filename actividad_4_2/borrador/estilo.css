@@ -1,0 +1,41 @@
+* {
+	font-family: 'Arial', sans-serif;
+}
+
+body {
+	padding-left: 20px;
+}
+
+#cabecera {
+	margin: auto;
+	color: white;
+	background-color: black;
+	overflow: auto;
+	text-align: center;
+}
+
+#logo {
+	float: left;
+	overflow: auto;
+}
+
+#logo img {
+	padding: 10px 0 0 10px;
+}
+
+#titulo_cartel {
+	margin: auto 20%;
+}
+
+.boton_editor {
+	padding: 10px 20px;
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+h2 {
+	padding-left: 10px;
+}

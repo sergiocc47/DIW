@@ -1,0 +1,20 @@
+GENERAL
+	• Limpiar código:
+		- Comentarios teóricos (especialmente Sergio DWS).
+		- Pruebas y depuración.
+		- Si no hay CSS externo, quitar ids.
+	• Estilo en CSS.
+		- Si ponemos padding al body se lo quitamos a los elementos que contiene.
+		- Quitar bordes de cajas (div).
+		- DUDA: quitar transición de color a animación
+	
+INDEX
+	• DUDA: cambiar título de la página web o del vídeo.
+	✓ VÍDEOS: ajustar tamaño de mp4 a embebido y centrar ambos.
+	✓ MEJORA: animación de img
+	✓ MEJORA: meter animación en CSS -> FAIL
+	
+CAMBIAR_TITULO
+	✓ Eliminar mensajes de error y mandar a index por Location o 
+	mantenerlos y meter un echo "<br><a href='index.php'>Volver a INICIO</a>"; 
+	al final del código.

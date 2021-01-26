@@ -1,0 +1,15 @@
+Directorio de trabajo:
+C:\xampp\htdocs\diw\actividad_3_1
+
+
+• GENERAL
+	- Mostrar galería de obras a misma ¿altura o anchura?
+	- Crear archivos inc.php para elementos comunes
+	✓ Mostrar licencia bajo imágenes.
+	✓ Mostar autor de cada listado.
+	- Mejorar código de acceso a archivo de la obra con función "basename"
+	- Mantener barra lateral de categorías (autores) al mostrar los listados.
+	- Mostrar "Volver a GALERÍA" tras todos los listados (si se especifica en la guía de estilo).
+	- Redimensionar imágenes (según dónde/cómo vayan a ser mostradas) para optimizar tiempo de carga.
+	- Quitar hiperlink al pulsar sobre la obra en la galería (si no se especifica en la guía de estilo).
+	

@@ -1,0 +1,37 @@
+body{
+    background-color: #a1ebab;
+}
+#cabecera 
+	{
+		background-color:#15e931;
+		position:absolute;
+		top:0px;
+		left:0px;
+	    right:0px;
+	    padding:5px 0;
+	    font-size:20px;
+	}
+		
+#cabecera img 
+	{
+		float:left;
+		margin-right: 20px;
+		width:150px;
+	}
+		
+
+#cuerpo
+    {
+        margin-left: 150px;
+		margin-top: 200px;
+        font-size: 19px;
+        
+    }
+.botones button img{
+    width: 50px;
+    
+}
+.botones{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

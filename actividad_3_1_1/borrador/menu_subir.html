@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Actividad 3.1.1</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="estilos_actual.php"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Graduate"/>
+	</head>
+	<body>
+		<div id="cabecera">
+			<div id="logo">
+				<a href="index.php">
+					<img src="./img/logo.gif"/>
+				</a>
+			</div>
+			<div id="titulo_principal">
+				<h1>Pintores españoles: Licencias para el uso de sus obras</h1>
+			</div>
+		</div>
+		<div id="cuerpo">
+			<div id="barra_navegacion">
+				<ul>
+					<li><a href="menu_subir.html">Subir imagen</li>
+					<li><a href="menu_eliminar.php">Eliminar imagen</a></li>
+					<li><a href="menu_cambiar.php">Cambiar imagen de categoría</a></li>
+				</ul>
+			</div>
+			
+			<h1>SUBIR IMAGEN</h1>
+			
+			<div>
+				<form action="subir.php" method="post" 
+					enctype="multipart/form-data">
+					Seleccionar imagen
+					<input name="archivo" type="file"/><br/>
+					Seleccionar autor:<br/>
+					<input type="radio" name="autor" value="Dalí"/>Dalí<br/>
+					<input type="radio" name="autor" value="El Bosco"/>El Bosco<br/>
+					<input type="radio" name="autor" value="El Greco"/>El Greco<br/>
+					<input type="radio" name="autor" value="Goya"/>Goya<br/>
+					<input type="radio" name="autor" value="Murillo"/>Murillo<br/>
+					<input type="radio" name="autor" value="Picasso"/>Picasso<br/>
+					<input type="radio" name="autor" value="Sorolla"/>Sorolla<br/>
+					<input type="radio" name="autor" value="Velázquez"/>Velázquez<br/>
+					<input type="radio" name="autor" value="Zurbarán"/>Zurbarán<br/>
+					<br/>
+					Nombre de la obra <input name="nombre_obra"/><br/>
+					Tipo de licencia <input name="tipo_licencia"/><br/>
+					<input type="submit" value="Subir"/> 
+				</form>
+			</div>
+		</div>
+	
+	</body>
+</html>

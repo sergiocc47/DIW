@@ -1,0 +1,26 @@
+Actividad 2.8
+
+Diseña e implemente un sitio web de venta de material deportivo con dos estilos distintos, para verse en pantalla de móvil principalmente.
+
+
+La estructura (formal o informal) debe estar completa, y deben tener tanto texto como imágenes (es decir, algún contenido aunque sea inventado).
+
+
+Ejemplo: 
+
+
+Header (con logotipo y título)
+
+Cuerpo (con barra de navegación y capa de contenido principal)
+
+Pie de página.
+
+
+El sistema de navegación, deberá permitir acceder a tres páginas:
+
+
+Inicio (presentación del sitio)
+
+Catálogo (para venta de productos). 
+
+Configuración (que permita seleccionar un estilo u otro)

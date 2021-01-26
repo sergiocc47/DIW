@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="es">
+	<head>
+		<title>Actividad 2.8 - Configuración</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="estilos_actual.php"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Graduate"/>
+	</head>
+	<body>
+		<div id="cabecera">
+			<div id="logo">
+				<a href="index.html">
+					<img src="./img/logo.png"/>
+				</a>
+			</div>
+			<div id="titulo_principal">
+				<h1>Venta de material deportivo</h1>
+			</div>
+		</div>
+		<div id="cuerpo">
+			<div class="menu_desplegable">
+				<button class="icono_menu_desplegable"/>
+				<div class="contenido_menu_desplegable">
+					<a href="index.html">Inicio</a>
+					<a href="catalogo.html">Catálogo</a>
+					<a href="configuracion.html">Configuración</a>
+				</div>
+			</div>
+			<div id="barra_navegacion">
+				<ul>
+					<li><a href="index.html">Inicio</li>
+					<li><a href="catalogo.html">Catálogo</a></li>
+					<li><a href="configuracion.html">Configuración</a></li>
+				</ul>
+			</div>
+			<div class="articulo" id="art1">
+				<h1 class="titulo_secundario">CONFIGURACIÓN</h1>
+				<img src="./img/configuracion.png"/>
+				<a class="img_pantalla_completa" href="./img/configuracion.png">Ver icono Configuración</a>
+			</div>
+			<div class="articulo" id="art1de1">
+				<form method="post" action="configurar.php">
+					<input name="cambiar_estilo" type="radio" value="mantener" checked />Mantener configuración actual<br/>
+					<input name="cambiar_estilo" type="radio" value="cambiar"/>Cambiar configuración<br/>
+					<br/>
+					<input class="boton" type="submit" value="Aplicar"/> 
+				</form>
+			</div>
+		</div>
+		<div id="pie_de_pagina">
+			<div class="articulo">
+				<div class="pie1de3">
+					<h4>CONTACTO</h4>
+					<p>C/ Monte Medulio nº 13</p>
+					<p>24404 Ponferrada (León)</p>
+					<p>Teléfono: 987 40 92 00</p>
+					<a href="mailto:venta@materialdeportivo.es">venta@materialdeportivo.es</a>
+				</div>
+				<div class="pie2de3">
+					<h4>SÍGUENOS EN</h4>
+					<a href="#">
+						<img src="./img/iconos_rrss.jpg" alt="Iconos de redes sociales" width="100%"/>
+					</a>
+				</div>
+				<div class="pie3de3">
+					<a href="#"><p>Aviso legal</p></a>
+					<a href="#"><p>Copyright</p></a>
+					<a href="#"><p>Desarrollo web<p></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

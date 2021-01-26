@@ -1,0 +1,45 @@
+* {
+	font-family: 'Signika', sans-serif;
+}
+body {
+	padding-left: 20px;
+	background-color: black;
+	color: white;
+}
+
+#cabecera {
+	color: white;
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+#logo {
+	float:left;
+	padding-top: 5px;
+}
+#titulo {
+	float:left;
+	padding-left: 80px;
+}
+
+#lista_reproduccion {
+	padding: 10px;
+	font-size: 20px;
+	
+}
+
+.cancion {
+	padding-right:50px;
+}
+
+.reproductor {
+	margin: 10px auto 20px auto;
+}
+
+form {
+	padding-left: 20px;
+}
+
+#boton_subir{
+	float: right;
+}

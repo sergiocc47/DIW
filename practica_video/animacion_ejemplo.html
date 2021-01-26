@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Animación Simple</title>	
+		<meta charset="utf-8"/>
+		<style>
+			@keyframes mianim {
+				from {left: 50px; background-color: red; transform: rotate(0deg); font-size: 16px;}
+				/* 0% {left: 50px; background-color: red; transform: rotate(0deg); font-size: 16px;} */
+				50% {background-color: green;}
+				to {left: 600px; background-color: blue; transform: rotate(360deg); font-size: 64px;}
+				/* 100% {left: 600px; background-color: blue; transform: rotate(360deg); font-size: 64px;} */
+			}
+			
+			#anim {
+				width: 83px;
+				height: 83px;
+				border: 1px solid black;
+				position: relative;
+			}
+			
+			/* efectos de animación por separado */
+			#anim {
+				animation-name: mianim;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-timing-function: linear;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="anim">GIRO</div>
+	</body>
+</html>

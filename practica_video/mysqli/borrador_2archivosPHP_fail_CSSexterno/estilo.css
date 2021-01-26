@@ -1,0 +1,36 @@
+body {
+	padding: 20px;
+}
+
+div#cabecera {
+	border: 1px solid red;	/* eliminar */
+	overflow: auto;
+	padding: 20px;
+}
+div#anim {
+	width: 100%;
+	float: left;
+}
+
+div#titulo {
+	border: 1px solid red;	/* eliminar */
+	overflow: auto;
+	text-align: center
+}
+
+h1 {
+	float: left;
+	border: 1px solid red;	/* eliminar */
+	width: 99%;
+	padding: 0 auto;
+}
+
+div#formulario {
+	border: 1px solid red;	/* eliminar */
+	padding: 20px;"
+}
+
+video#video_mp4 {
+	width: 560px; 
+	height: 315px;
+}

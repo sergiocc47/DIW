@@ -1,0 +1,59 @@
+* {
+	font-family: 'Arial', sans-serif;
+}
+body {
+	padding-left: 20px;
+}
+
+/*
+COLORES LINKEDIN
+AZUL:			#0076b7
+AZUL MARINO:	#273e4b
+GRIS PASTEL:	#e1e9ee
+GRIS:			#c7d1d8
+*/
+#cabecera {
+	margin: auto;
+	color: white;
+	background-color: #273e4b;
+	overflow: auto;
+	text-align: center;
+}
+
+#logo {
+	float: left;
+	overflow: auto;
+}
+
+#logo img {
+	padding: 10px 0 0 10px;
+}
+
+#nombre_cv {
+	margin: auto 20%;
+}
+
+#foto_usuario {
+	padding: 10px 0 10px 75%;
+}
+
+#foto_usuario img {
+	width: 256px;
+}
+
+#foto_usuario form {
+	padding-left: 155px;
+	padding-top: 10px;
+}
+
+.boton_cambiar {
+	padding: 10px 20px;
+	background-color: #0076b7;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+h2 {
+	padding-left: 10px;
+}
